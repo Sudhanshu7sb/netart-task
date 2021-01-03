@@ -1,0 +1,504 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+} /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* css reset ends */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 30%;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-award {
+  width: 35%;
+}
+.award {
+  width: 100%;
+}
+
+.achievements {
+  width: 65%;
+  padding: 1rem 1.5rem;
+}
+.achievements h4 {
+  font-weight: bold;
+}
+.achievements img {
+  width: 100%;
+}
+.achievements-list {
+  list-style: disc;
+  list-style-position: inside;
+  padding: 0.6rem 1rem;
+}
+.achievements-list li {
+  margin: 0.8rem;
+}
+
+.achievements p {
+  line-height: 1.2;
+  font-size: 1.1rem;
+}
+
+/* about section */
+
+.about {
+  margin: 0.5rem 1rem;
+  border-bottom: 2px solid red;
+}
+
+.about h3 {
+  font-size: 0.9rem;
+  margin: 1rem;
+}
+
+.about-us-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-us-image-container img {
+  width: 80%;
+}
+
+.about p {
+  text-align: center;
+  margin: 1rem;
+}
+
+/* services section */
+
+.services h3 {
+  text-align: center;
+  font-weight: bold;
+  margin: 1rem 0.5rem;
+}
+
+/* .services p {
+  text-align: center;
+} */
+
+.services ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.services li {
+  padding: 0 0.5rem;
+  border-right: 2px solid red;
+}
+.services li:last-child {
+  border: none;
+}
+
+/* footer  */
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0.3rem;
+  padding: 1rem 2rem 3rem;
+  background-color: red;
+  color: white;
+}
+.social-icon {
+  margin: 0.3rem;
+}
+
+/* media queries */
+
+@media screen and (max-width: 500px) {
+  .achievements {
+    padding: 1rem 0.2rem;
+  }
+  .achievements h4 {
+    font-size: 4px;
+  }
+  .achievements-list{
+    padding:0.3rem;
+  }
+  .achievements-list li {
+    margin: 0.2rem;
+    font-size: 5px;
+  }
+  .achievements p{
+    font-size:5px;
+  }
+
+  .about h3{
+    font-size:3.4px;
+  }
+  .about p{
+    font-size:4px;
+  }
+  .services h3{
+    font-size:5px;
+  }
+  .services li{
+    font-size:4px;
+    padding:0 1px;
+    border-right: 1px solid red;
+  }
+
+  .footer{
+    padding:1rem 0.9rem 2rem;
+  }
+
+  .footer p {
+    font-size:6px;
+    
+
+  }
+}
+
+@media screen and (min-width:500px) and (max-width: 700px) {
+  .achievements {
+    padding: 1rem 0.5rem;
+  }
+  .achievements h4 {
+    font-size: 6px;
+  }
+  .achievements-list{
+    padding:0.3rem;
+  }
+  .achievements-list li {
+    margin: 0.2rem;
+    font-size: 7px;
+  }
+  .achievements p{
+    font-size:7px;
+  }
+
+  .about h3{
+    font-size:5px;
+  }
+  .about p{
+    font-size:7px;
+  }
+  .services h3{
+    font-size:7px;
+  }
+  .services li{
+    font-size:6px;
+    padding:0 1px;
+    border-right: 1px solid red;
+  }
+
+  .footer{
+    padding:1rem 1.5rem 2rem;
+  }
+
+  .footer p {
+    font-size:7px;
+    
+
+  }
+}
+@media screen and (min-width:700px) and (max-width: 900px) {
+  .achievements {
+    padding: 1rem 0.8rem;
+  }
+  .achievements h4 {
+    font-size: 7px;
+  }
+  .achievements-list{
+    padding:0.3rem;
+  }
+  .achievements-list li {
+    margin: 0.2rem;
+    font-size: 9px;
+  }
+  .achievements p{
+    font-size:9px;
+  }
+
+  .about h3{
+    font-size:7px;
+  }
+  .about p{
+    font-size:9px;
+  }
+  .services h3{
+    font-size:9px;
+  }
+  .services li{
+    font-size:8px;
+    padding:0 1px;
+    border-right: 1px solid red;
+  }
+
+  .footer{
+    padding:1rem 1.5rem 2rem;
+  }
+
+  .footer p {
+    font-size:9px;
+    
+
+  }
+}
