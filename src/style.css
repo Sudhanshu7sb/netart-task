@@ -257,6 +257,11 @@ table {
 }
 /* css reset ends */
 
+body{
+  /* background: #F5DE6D; */
+  background: linear-gradient(to bottom, #ffffff 0%, #f5de6d 100%);
+}
+
 .header {
   display: flex;
   justify-content: center;
