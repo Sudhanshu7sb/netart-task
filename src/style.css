@@ -312,7 +312,7 @@ table {
 }
 
 .about h3 {
-  font-size: 0.9rem;
+  font-size: 0.6rem;
   margin: 1rem;
 }
 
@@ -371,6 +371,11 @@ table {
 }
 
 /* media queries */
+@media screen and (max-width: 400px) {
+  .about h3{
+    font-size:2.1px !important;
+  }
+}
 
 @media screen and (max-width: 500px) {
   .achievements {
